@@ -1,0 +1,64 @@
+{
+  "name": "doloremquesunt",
+  "version": "1.0.0",
+  "description": "Sleep / pause execution using Promises and flexible time formats",
+  "keywords": [
+    "sleep",
+    "delay",
+    "pause",
+    "promise",
+    "suspend",
+    "wait"
+  ],
+  "bugs": {
+    "url": "https://github.com/CarrieMorar/doloremquesunt.git/issues"
+  },
+  "license": "MIT",
+  "author": "ReinholdMacejkovic",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CarrieMorar/doloremquesunt.git"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "dependencies": {
+    "ms": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.0",
+    "@types/ms": "^0.7.30",
+    "jest": "^22.4.2",
+    "prettier": "^1.11.1",
+    "rimraf": "^2.6.2",
+    "ts-jest": "^22.4.1",
+    "tslint": "^5.9.1",
+    "tslint-config-prettier": "^1.9.0",
+    "typescript": "^2.7.2"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "prettier": {
+    "bracketSpacing": false,
+    "singleQuote": true,
+    "tabWidth": 4
+  }
+}
